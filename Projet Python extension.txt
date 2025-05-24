@@ -1,0 +1,48 @@
+a. Architecture du projet
+Organisez votre code en plusieurs fichiers :
+  - main.py : exécution principale du jeu.
+  - player.py : gestion des classes Player (Cartie) et Dealer.
+  - deck.py : création et gestion du paquet de cartes.
+  - game.py : logique de la partie, gestion des manches.
+
+b. Création et gestion du paquet
+Dans deck.py, implémentez :
+  - La génération du paquet.
+  - Le mélange.
+  - Le tirage de cartes.
+  - La gestion des cartes restantes.
+
+c. Les joueurs : Cartie et le Croupier
+Dans player.py :
+  - Classe Player (Cartie) : possède un nom, des jetons, une main, une mise.
+  - Classe Dealer (croupier) : possède une main, tire jusqu’à 17+.
+  - Méthodes utiles : tirer(), calculer_score(), afficher_main()...
+
+d. La mise
+Implémenter un système de mise géré par Cartie uniquement.
+  - Cartie choisit une mise valide (entre 5 et 10 jetons).
+  - Le gain dépend du résultat de la manche.
+  - Le croupier ne mise rien.
+
+e. Le tirage
+Permettre à Cartie de décider de tirer ou non.
+  - Afficher ses cartes à chaque tour.
+  - Elle tire jusqu’à décider d’arrêter ou de dépasser 21.
+  - Gérer les cas de Blackjack parfait et bust.
+
+f. Calcul des scores
+Fournir un score exact pour chaque main.
+  - L’As vaut 1.
+  - Le Valet vaut 11 si cela ne fait pas dépasser 21, sinon 1.
+  - Le score doit s’adapter dynamiquement au tirage.
+
+g. Déroulement complet
+Intégrer toutes les mécaniques dans une boucle principale.
+Dans game.py, créez une fonction jouer_manche() qui :
+  - Gère la mise.
+  - Distribue les cartes.
+  - Exécute les tours de Cartie puis du croupier.
+  - Calcule les scores.
+  - Applique les résultats (gains ou pertes).
+
+La boucle principale, dans main.py, répète jouer_manche() jusqu’à la fin de la partie.
