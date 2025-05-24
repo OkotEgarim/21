@@ -66,7 +66,7 @@ Votre jeu fonctionne. Il est propre, solide, et Cartie peut affronter le croupie
 
 Mais ce projet ne s’arrête pas là… Il est temps de **pousser le concept plus loin**, avec une dimension stratégique supplémentaire :
 
-### 🤖 L’IA redoutable – Un véritable joueur rival
+### L’IA redoutable – Un véritable joueur rival
 
 **Objectif** : créer une **IA capable de jouer comme Cartie**. Mais attention, cette IA ne se contente pas d’imiter : **elle veut la battre**.
 
@@ -74,7 +74,7 @@ Mais ce projet ne s’arrête pas là… Il est temps de **pousser le concept pl
 - Elle affronte Cartie sur une **série de parties consécutives**.
 - Chaque joueur commence avec le **même nombre de jetons** et joue en parallèle une partie **contre le même croupier**.
 
-> 🆚 **Le duel IA vs Cartie – Règles de confrontation**
+> **Le duel IA vs Cartie – Règles de confrontation**
 >
 > - Une série est jouée en **manches indépendantes**, où **chacun joue sa partie séparément** contre le croupier.
 > - Après chaque partie, on compare **le gain net** (jetons gagnés – mise initiale).
@@ -87,13 +87,11 @@ Cette confrontation permet :
 - De développer une logique de décision autonome (basée sur le score, la main du croupier, les probabilités, etc.).
 - De comparer en temps réel deux styles de jeu.
 
-### 💡 Autres idées à explorer :
+### Autres idées à explorer :
 
-- 📊 Ajouter un **rapport de performance** en fin de série (nombre de manches, taux de victoire, score final).
-- 🧠 Introduire différents **niveaux d’IA** (prudente, agressive, aléatoire…).
-- 🎨 Implémenter une **interface visuelle** pour suivre l’affrontement en direct.
-- 🌍 Intégrer un mode **multijoueur local ou distant** avec classement.
-
-> 🛠 Ce projet n’est pas qu’un exercice : c’est un **bac à sable de création**, où votre maîtrise de Python, de la stratégie et de l’algorithmie va pouvoir s’exprimer pleinement.
+- Ajouter un **rapport de performance** en fin de série (nombre de manches, taux de victoire, score final).
+- Introduire différents **niveaux d’IA** (prudente, agressive, aléatoire…).
+- Implémenter une **interface visuelle** pour suivre l’affrontement en direct.
+- Intégrer un mode **multijoueur local ou distant** avec classement.
 
 À vous de coder l’esprit de la compétition. CGM vous regarde.
